@@ -7,6 +7,7 @@ import NumericaDateValues from './components/NumericaDateValues'
 import WatchFieldValues from './components/WatchFieldValues'
 import GetValues from './components/GetValues'
 import SetValues from './components/SetValues'
+import DisableFields from './components/DisableFields'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <NumericaDateValues/> */}
       {/* <WatchFieldValues/> */}
       {/* <GetValues/> */}
-      <SetValues/>
+      {/* <SetValues/> */}
+      <DisableFields/>
     </>
   )
 }
