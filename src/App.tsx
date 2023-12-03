@@ -5,6 +5,7 @@ import YoutubeForm from './components/YoutubeForm'
 import DynamicFields from './components/DynamicFields'
 import NumericaDateValues from './components/NumericaDateValues'
 import WatchFieldValues from './components/WatchFieldValues'
+import GetValues from './components/GetValues'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <YoutubeForm/> */}
       {/* <DynamicFields/> */}
       {/* <NumericaDateValues/> */}
-      <WatchFieldValues/>
+      {/* <WatchFieldValues/> */}
+      <GetValues/>
     </>
   )
 }
