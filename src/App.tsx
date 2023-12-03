@@ -6,6 +6,7 @@ import DynamicFields from './components/DynamicFields'
 import NumericaDateValues from './components/NumericaDateValues'
 import WatchFieldValues from './components/WatchFieldValues'
 import GetValues from './components/GetValues'
+import SetValues from './components/SetValues'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <DynamicFields/> */}
       {/* <NumericaDateValues/> */}
       {/* <WatchFieldValues/> */}
-      <GetValues/>
+      {/* <GetValues/> */}
+      <SetValues/>
     </>
   )
 }
