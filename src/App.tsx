@@ -11,6 +11,7 @@ import DisableFields from './components/DisableFields'
 import HandleSubmitError from './components/HandleSubmitError'
 import FormSubmissionState from './components/FormSubmitionState'
 import FormReset from './components/ResetForm'
+import AsyncValidation from './components/AsyncValidation'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <DisableFields/> */}
       {/* <HandleSubmitError/> */}
       {/* <FormSubmissionState/> */}
-      <FormReset/>
+      {/* <FormReset/> */}
+      <AsyncValidation/>
     </>
   )
 }
