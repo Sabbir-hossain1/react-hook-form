@@ -31,8 +31,13 @@ const AsyncValidation = () => {
       age: 0,
       dob: new Date(),
       password: "",
-      confirm_password: "",
+      confirm_password: "",     
     },
+    // mode:'all',
+    // mode:'onSubmit',
+    // mode:'onBlur',
+    // mode:'onChange',
+    // mode:'onTouched',
   });
 
   const handleSetValues = () => {
