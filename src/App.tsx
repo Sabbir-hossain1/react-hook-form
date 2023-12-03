@@ -8,6 +8,9 @@ import WatchFieldValues from './components/WatchFieldValues'
 import GetValues from './components/GetValues'
 import SetValues from './components/SetValues'
 import DisableFields from './components/DisableFields'
+import HandleSubmitError from './components/HandleSubmitError'
+import FormSubmissionState from './components/FormSubmitionState'
+import FormReset from './components/ResetForm'
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
       {/* <WatchFieldValues/> */}
       {/* <GetValues/> */}
       {/* <SetValues/> */}
-      <DisableFields/>
+      {/* <DisableFields/> */}
+      {/* <HandleSubmitError/> */}
+      {/* <FormSubmissionState/> */}
+      <FormReset/>
     </>
   )
 }
